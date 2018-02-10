@@ -1,0 +1,35 @@
+.container{
+    border: 3px solid lightskyblue;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Autour One';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+
+body{   
+    background: url("https://www.wur.nl/upload_mm/8/d/2/b223d9fb-1217-432f-8e52-7bb4908d4fba_wolken_lucht_shutterstock_193491221.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input::placeholder{
+    font-family: 'Autour One';    
+}
+
+input[type=submit], input[type=text]{
+    font-family: 'Autour One';
+    border: 2px solid lightskyblue; 
+}
+
+input[type=submit]:hover{
+    background-color: lightblue;
+    cursor: pointer;   
+}
+
